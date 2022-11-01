@@ -1,6 +1,6 @@
 export const CV = {
   hero: {
-    name: "Álvaro",
+    name: "Álvaro Moreno Rodríguez",
     adress: "Upgrade-Hub",
     city: "Igualada",
     email: "alvaromoreno21197@gmail.com",
@@ -11,9 +11,6 @@ export const CV = {
     aboutMe: [
       {
         info: "Full stack junior developer",
-      },
-      {
-        info: "",
       },
       {
         info: "🕶 Genius, billionaire, playboy, philanthropist.",
@@ -46,7 +43,7 @@ export const CV = {
         "Loading and unloading, mantaining the stock, refilling the storages inside the hospital."
     },
   ],
-  languages: [
+  lenguages: [
     {
         language: "English",
         level: "B2",
