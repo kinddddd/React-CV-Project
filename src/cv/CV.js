@@ -1,7 +1,6 @@
 export const CV = {
   hero: {
     name: "Álvaro Moreno Rodríguez",
-    adress: "Upgrade-Hub",
     city: "Igualada",
     email: "alvaromoreno21197@gmail.com",
     birthDate: "02/11/1997",
@@ -10,13 +9,13 @@ export const CV = {
     gitHub: "https://github.com/kinddddd",
     aboutMe: [
       {
-        info: "Full stack junior developer",
+        info: "Me gustan los retos y sobreponerme a las dificultades.",
       },
       {
-        info: "🕶 Genius, billionaire, playboy, philanthropist.",
+        info: "Me adapto fácilmente al entorno y las necesidades de trabajo.",
       },
       {
-        info: "🦾 I do have a responsibility to keep my inventions from evil hands - but I have a greater responsibility to oppose that evil any way I can.",
+        info: "Siempre buscando algo nuevo que aprender y explorar.",
       },
     ],
   },
@@ -26,34 +25,44 @@ export const CV = {
       date: "2022",
       where: "Upgrade-HUB",
     },
+    {
+      name: "Especialista en logística de empresa 4.0",
+      date: "2020",
+      where: "Servei Ocupacional de Catalunya"
+    },
+    {
+      name: "Formación profesional de hosteleria y restauración",
+      date: "2017",
+      where: "Escola Pia d'Igualada"
+    }
   ],
   experience: [
     {
-      name: "Waiter",
+      name: "Camarero",
       date: "2016 - 2019",
       where: "Bar Cafeteria El Passeig",
       description:
-        "Attending customers and cleaning the place."
+        "Atender a los comensales y mantenimiento del local."
     },
     {
-      name: "Storekeeper",
+      name: "Mozo de almacén",
       date: "11/2020 - 9/2021",
       where: "Consorci Sanitari de l'Anoia",
       description:
-        "Loading and unloading, mantaining the stock, refilling the storages inside the hospital."
+      "Carga y descarga de material, mantenimiento de stock, repartir y mantener los almacenes dentro del hospital."
     },
   ],
   lenguages: [
     {
-        language: "English",
+        language: "Inglés",
         level: "B2",
     },
     {
-        lenguage: "Catalan",
+        lenguage: "Catalán",
         level: "native"
     },
     {
-        lenguage: "Spanish",
+        lenguage: "Castellano",
         level: "native"
     },
   ],
