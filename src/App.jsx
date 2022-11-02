@@ -5,8 +5,9 @@ import About from "./components/About"
 import Education from "./components/Education"
 import Experience from "./components/Experience"
 import { CV } from "./cv/CV"
+import More from "./components/More";
 
-const { hero, education, experience } = CV;
+const { hero, education, experience, languages } = CV;
 
 function App() {
   const [showEducation, setShowEducation] = useState(true);
@@ -33,6 +34,7 @@ function App() {
           <Experience experience={experience} />
         )}
       </div>
+      <More languages={languages} />
 
     </div>
   );

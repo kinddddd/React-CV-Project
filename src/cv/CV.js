@@ -52,18 +52,18 @@ export const CV = {
       "Carga y descarga de material, mantenimiento de stock, repartir y mantener los almacenes dentro del hospital."
     },
   ],
-  lenguages: [
+  languages: [
     {
         language: "Inglés",
         level: "B2",
     },
     {
-        lenguage: "Catalán",
-        level: "native"
+        language: "Catalán",
+        level: "Nativo"
     },
     {
-        lenguage: "Castellano",
-        level: "native"
+        language: "Castellano",
+        level: "Nativo"
     },
   ],
 };

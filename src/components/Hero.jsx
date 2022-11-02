@@ -13,8 +13,8 @@ const Hero = ({ hero }) => {
         <p>🗓️ {hero.birthDate}</p>
         <p>
           📧
-          <a href={"mailto:" + hero.email}>
-          alvaromoreno21197@gmail
+          <a href={"mailto: " + hero.email}>
+          alvaromoreno21197@gmail.com
           </a>
         </p>
         <p>📱 {hero.phone}</p>
