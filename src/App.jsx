@@ -11,7 +11,7 @@ import Header from "./components/Header";
 const { hero, education, experience, languages } = CV;
 
 function App() {
-  const [showEducation, setShowEducation] = useState(true);
+  const [showButton, setShowButton] = useState("education");
   return (
     <div className="App">
       <Header header={hero} />
@@ -21,25 +21,33 @@ function App() {
       </div>
       <button
       className="button"
-      onClick={() => setShowEducation(true)}
+      onClick={() => setShowButton("education")}
       >
         Educación
       </button>
       <button
         className="button"
-        onClick={() => setShowEducation(false)}
+        onClick={() => setShowButton("experience")}
       >
         Experiencia
       </button>
+      <button
+        className="button"
+        onClick={() => setShowButton("more")}
+      >
+        Idiomas
+      </button>
       <div>
-        {showEducation ? (
+        {showButton === "education" && (
           <Education education={education} />
-        ) : (
+        )}
+        {showButton === "experience" && (
           <Experience experience={experience} />
         )}
+        {showButton === "more" && (
+          <More languages={languages} />
+        )}
       </div>
-      <More languages={languages} />
-
     </div>
   );
 }
