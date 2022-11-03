@@ -6,6 +6,7 @@ import Education from "./components/Education"
 import Experience from "./components/Experience"
 import { CV } from "./cv/CV"
 import More from "./components/More";
+import Header from "./components/Header";
 
 const { hero, education, experience, languages } = CV;
 
@@ -13,16 +14,19 @@ function App() {
   const [showEducation, setShowEducation] = useState(true);
   return (
     <div className="App">
-      <Hero hero={hero} />
-      <About aboutMe={hero.aboutMe} />
+      <Header header={hero} />
+      <div className="topPart">
+        <Hero hero={hero} />
+        <About aboutMe={hero.aboutMe} />
+      </div>
       <button
-      className="custom-btn btn-4"
+      className="button"
       onClick={() => setShowEducation(true)}
       >
         Educación
       </button>
       <button
-        className="custom-btn btn-4"
+        className="button"
         onClick={() => setShowEducation(false)}
       >
         Experiencia

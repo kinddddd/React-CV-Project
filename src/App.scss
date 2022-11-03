@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .App-logo {
@@ -37,4 +37,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.topPart {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
