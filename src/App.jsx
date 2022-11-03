@@ -19,24 +19,24 @@ function App() {
         <Hero hero={hero} />
         <About aboutMe={hero.aboutMe} />
       </div>
-      <button
+      <span
       className="button"
       onClick={() => setShowButton("education")}
       >
         Educación
-      </button>
-      <button
+      </span>
+      <span
         className="button"
         onClick={() => setShowButton("experience")}
       >
         Experiencia
-      </button>
-      <button
+      </span>
+      <span
         className="button"
         onClick={() => setShowButton("more")}
       >
         Idiomas
-      </button>
+      </span>
       <div>
         {showButton === "education" && (
           <Education education={education} />
