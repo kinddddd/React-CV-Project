@@ -34,7 +34,7 @@ footer{
   height: 300px;
   font-size: 1.3rem;
   width: 50%;
-  border-right: 2px solid black;
+  border-right: 4px solid black;
 }
 
 .buttonBox > span:hover {
@@ -64,4 +64,8 @@ footer{
 
 footer > p:hover {
   cursor: pointer;
+}
+
+.skillsButton {
+  font-weight: bold;
 }

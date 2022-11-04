@@ -15,7 +15,7 @@ function App() {
 
   const [showButton, setShowButton] = useState("education");
   const [showSkills, setShowSkills] = useState(false);
-  const [skillButton, setSkillButton] = useState("Mostrar habilidades técnicas")
+  const [skillButton, setSkillButton] = useState("Mostrar habilidades técnicas en lenguajes de programación ⬇️")
   
   return (
     <div className="App">
@@ -86,10 +86,10 @@ function App() {
     <footer>
 
       {showSkills === false
-      ? <p onClick={() => {setShowSkills(true); setSkillButton("Ocultar habilidades técnicas ⬆️")}}>
+      ? <p className="skillsButton" onClick={() => {setShowSkills(true); setSkillButton("Ocultar habilidades técnicas en lenguajes de programación ⬆️")}}>
         {skillButton}
       </p>
-      : <p onClick={() => {setShowSkills(false); setSkillButton("Mostrar habilidades técnicas ⬇️")}}>
+      : <p className="skillsButton" onClick={() => {setShowSkills(false); setSkillButton("Mostrar habilidades técnicas en lenguajes de programación ⬇️")}}>
         {skillButton}
       </p>
       }

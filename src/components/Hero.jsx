@@ -10,9 +10,12 @@ const Hero = ({ hero }) => {
         📧 {hero.email}
         </p>
         <p>📱 {hero.phone}</p>
-        <p>💾 <a href={hero.gitHub} target="blank">
-            GitHub
-          </a></p>
+        <p>
+          <a href={hero.gitHub} target="blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Img" className="gitLogo"/>
+          GitHub
+          </a>
+        </p>
       </div>
   )
 }
