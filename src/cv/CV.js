@@ -21,12 +21,12 @@ export const CV = {
   },
   education: [
     {
-      name: "Full stack developer",
+      name: "Bootcamp Full stack developer",
       date: "2022",
       where: "Upgrade-HUB",
     },
     {
-      name: "Especialista en logística de empresa 4.0",
+      name: "Curso de especialista en logística de empresa 4.0",
       date: "2020",
       where: "Servei Ocupacional de Catalunya"
     },

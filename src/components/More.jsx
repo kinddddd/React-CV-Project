@@ -3,18 +3,15 @@ import "./More.scss"
 
 const More = ({languages}) => {
   return (
-    <div>
-        <div className="education card">
+        <div className="languages">
             {languages.map((item) => {
             return (
-                <div key={JSON.stringify(item)}>
-                <span className="name">📋 {item.language}</span>
-                <span> ____ {item.level}</span>
+                <div key={JSON.stringify(item)} className="items">
+                <p>📋 {item.language} {item.level}</p>
                 </div>
             );
         })}
       </div>
-    </div>
   )
 }
 
