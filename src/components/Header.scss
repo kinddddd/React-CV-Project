@@ -1,0 +1,38 @@
+.header {
+    padding-top:50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    height: 200px;
+  }
+
+.headerImg {
+    width: 10%;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+}
+
+.fullName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.nameBox {
+    height:80px;
+}

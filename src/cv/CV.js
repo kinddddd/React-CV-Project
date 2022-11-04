@@ -1,11 +1,11 @@
 export const CV = {
   hero: {
     name: "Álvaro Moreno Rodríguez",
-    city: "Igualada",
+    city: "Igualada, Barcelona",
     email: "alvaromoreno21197@gmail.com",
     birthDate: "02/11/1997",
     phone: "(+34) 622 17 49 69",
-    image: "http://images3.memedroid.com/images/UPLOADED101/5f71f5cf73c53.jpeg",
+    image: "https://res.cloudinary.com/dogaea7ro/image/upload/v1667569613/myself.jpg",
     gitHub: "https://github.com/kinddddd",
     aboutMe: [
       {

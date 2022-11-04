@@ -3,9 +3,9 @@ import "./Header.scss"
 
 const Header = ({header}) => {
   return (
-    <div>
-        <img src={header.image} alt="" />
-        <p>{header.name}</p>
+    <div className="header">
+        <img src={header.image} alt="" className="headerImg"/>
+        <p className="fullName">{header.name}</p>
     </div>
   )
 }
