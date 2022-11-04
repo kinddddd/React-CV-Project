@@ -61,3 +61,7 @@ footer{
 .underlinedButton {
     text-decoration: underline;
 }
+
+footer > p:hover {
+  cursor: pointer;
+}

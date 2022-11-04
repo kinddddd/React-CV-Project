@@ -84,14 +84,19 @@ function App() {
       </div>
     </main>
     <footer>
+
       {showSkills === false
-      ? <p onClick={() => {setShowSkills(true); setSkillButton("Mostrar habilidades técnicas")}}>
+      ? <p onClick={() => {setShowSkills(true); setSkillButton("Ocultar habilidades técnicas ⬆️")}}>
         {skillButton}
       </p>
-      : <p className="underlinedbutton" onClick={() => {setShowSkills(true); setSkillButton("Ocultar habilidades técnicas")}}>
+      : <p onClick={() => {setShowSkills(false); setSkillButton("Mostrar habilidades técnicas ⬇️")}}>
         {skillButton}
       </p>
       }
+
+      {showSkills === true && (
+        <Skills />
+      )}
     </footer>
     </div>
   );
