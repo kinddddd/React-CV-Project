@@ -16,7 +16,7 @@ src: url(./fonts/Montserrat-Regular.ttf)
 }
 
 header {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 main {
@@ -51,7 +51,7 @@ footer{
   margin-left: 20%;
   margin-right: 20%;
   border-top: 2px solid black;
-  height: 400px;
+  height: 350px;
 }
 
 .bottomInfo {
@@ -69,4 +69,5 @@ footer > p:hover {
 
 .skillsButton {
   font-weight: bold;
+  text-decoration: underline;
 }

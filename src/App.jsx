@@ -15,7 +15,7 @@ function App() {
 
   const [showButton, setShowButton] = useState("education");
   const [showSkills, setShowSkills] = useState(false);
-  const [skillButton, setSkillButton] = useState("Mostrar habilidades técnicas en lenguajes de programación ⬇️");
+  const [skillButton, setSkillButton] = useState("Mostrar nivel en lenguajes de programación");
   
 /*   const skillsRef = useRef();
   const goToSkills = () => {
@@ -91,10 +91,10 @@ function App() {
     <footer>
 
       {showSkills === false
-      ? <p className="skillsButton" onClick={() => {setShowSkills(true); setSkillButton("Ocultar habilidades técnicas en lenguajes de programación ⬆️")}}>
+      ? <p className="skillsButton" onClick={() => {setShowSkills(true); setSkillButton("Ocultar nivel en lenguajes de programación")}}>
         {skillButton}
       </p>
-      : <p className="skillsButton" onClick={() => {setShowSkills(false); setSkillButton("Mostrar habilidades técnicas en lenguajes de programación ⬇️");}}>
+      : <p className="skillsButton" onClick={() => {setShowSkills(false); setSkillButton("Mostrar nivel en lenguajes de programación");}}>
         {skillButton}
       </p>
       }
