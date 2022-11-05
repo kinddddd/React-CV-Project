@@ -12,6 +12,7 @@ src: url(./fonts/Montserrat-Regular.ttf)
   height: 100%;
   width: 100%;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -34,7 +35,7 @@ footer{
   height: 300px;
   font-size: 1.3rem;
   width: 50%;
-  border-right: 4px solid black;
+  border-right: 2px solid black;
 }
 
 .buttonBox > span:hover {

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import './App.scss';
 import Hero from "./components/Hero";
 import About from "./components/About"
@@ -15,7 +15,12 @@ function App() {
 
   const [showButton, setShowButton] = useState("education");
   const [showSkills, setShowSkills] = useState(false);
-  const [skillButton, setSkillButton] = useState("Mostrar habilidades técnicas en lenguajes de programación ⬇️")
+  const [skillButton, setSkillButton] = useState("Mostrar habilidades técnicas en lenguajes de programación ⬇️");
+  
+/*   const skillsRef = useRef();
+  const goToSkills = () => {
+    skillsRef.current.scrollIntoView({ behavior: 'smooth' })
+  } */
   
   return (
     <div className="App">
@@ -89,14 +94,14 @@ function App() {
       ? <p className="skillsButton" onClick={() => {setShowSkills(true); setSkillButton("Ocultar habilidades técnicas en lenguajes de programación ⬆️")}}>
         {skillButton}
       </p>
-      : <p className="skillsButton" onClick={() => {setShowSkills(false); setSkillButton("Mostrar habilidades técnicas en lenguajes de programación ⬇️")}}>
+      : <p className="skillsButton" onClick={() => {setShowSkills(false); setSkillButton("Mostrar habilidades técnicas en lenguajes de programación ⬇️");}}>
         {skillButton}
       </p>
       }
-
       {showSkills === true && (
         <Skills />
       )}
+{/*       <p ref={skillsRef}>u</p> */}
     </footer>
     </div>
   );
