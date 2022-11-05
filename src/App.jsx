@@ -17,11 +17,6 @@ function App() {
   const [showSkills, setShowSkills] = useState(false);
   const [skillButton, setSkillButton] = useState("Mostrar nivel en lenguajes de programación");
   
-/*   const skillsRef = useRef();
-  const goToSkills = () => {
-    skillsRef.current.scrollIntoView({ behavior: 'smooth' })
-  } */
-  
   return (
     <div className="App">
     <header>
@@ -31,7 +26,17 @@ function App() {
       <div className="topPart">
           <Hero hero={hero} />
       </div>
-      <About aboutMe={hero.aboutMe} />
+      {showSkills === false 
+      ? <About aboutMe={hero.aboutMe} />
+      :  <Skills />}
+      {showSkills === false
+      ? <p className="skillsButtonInactive" onClick={() => {setShowSkills(true); setSkillButton("Ocultar nivel en lenguajes de programación")}}>
+        {skillButton}
+      </p>
+      : <p className="skillsButtonActive" onClick={() => {setShowSkills(false); setSkillButton("Mostrar nivel en lenguajes de programación");}}>
+        {skillButton}
+      </p>
+      }
       <div className="bottomPart">
         <div className="buttonBox">
           {showButton === "education"
@@ -85,24 +90,8 @@ function App() {
               <More languages={languages} />
             )}
         </div>
-
       </div>
     </main>
-    <footer>
-
-      {showSkills === false
-      ? <p className="skillsButton" onClick={() => {setShowSkills(true); setSkillButton("Ocultar nivel en lenguajes de programación")}}>
-        {skillButton}
-      </p>
-      : <p className="skillsButton" onClick={() => {setShowSkills(false); setSkillButton("Mostrar nivel en lenguajes de programación");}}>
-        {skillButton}
-      </p>
-      }
-      {showSkills === true && (
-        <Skills />
-      )}
-{/*       <p ref={skillsRef}>u</p> */}
-    </footer>
     </div>
   );
 }

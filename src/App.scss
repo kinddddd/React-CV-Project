@@ -67,7 +67,14 @@ footer > p:hover {
   cursor: pointer;
 }
 
-.skillsButton {
+.skillsButtonInactive {
   font-weight: bold;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.skillsButtonActive {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
 }
