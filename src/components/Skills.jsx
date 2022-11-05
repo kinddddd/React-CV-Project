@@ -75,7 +75,7 @@ const Skills = () => {
             </svg>
             <span className="progressbar__text shadow-react">React.js</span>
           </div>
-          <div className="progressbar">
+          {/* <div className="progressbar">
             <svg className="progressbar__svg">
               <circle
                 cx="80"
@@ -87,7 +87,7 @@ const Skills = () => {
               </circle>
             </svg>
             <span className="progressbar__text shadow-angular">Angular.js</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
