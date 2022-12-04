@@ -7,6 +7,7 @@ export const CV = {
     phone: "(+34) 622 17 49 02",
     image: "https://res.cloudinary.com/dogaea7ro/image/upload/v1667569613/myself.jpg",
     gitHub: "https://github.com/kinddddd",
+    linkedin: 'https://www.linkedin.com/in/alvaromr-fsd/',
     aboutMe: [
       {
         info: "Me gustan los retos y sobreponerme a las dificultades.",

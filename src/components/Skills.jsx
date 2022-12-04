@@ -17,7 +17,7 @@ const Skills = () => {
                 {" "}
               </circle>
             </svg>
-            <span className="progressbar__text shadow-html">HTML</span>
+            <span className="progressbar__text shadow-html">HTML5</span>
           </div>
           
           <div className="progressbar">
@@ -31,7 +31,7 @@ const Skills = () => {
                 {" "}
               </circle>
             </svg>
-            <span className="progressbar__text shadow-scss">SCSS</span>
+            <span className="progressbar__text shadow-scss">CSS3</span>
           </div>
 
           <div className="progressbar">
@@ -73,9 +73,9 @@ const Skills = () => {
                 {" "}
               </circle>
             </svg>
-            <span className="progressbar__text shadow-react">React.js</span>
+            <span className="progressbar__text shadow-react">React</span>
           </div>
-          {/* <div className="progressbar">
+          <div className="progressbar">
             <svg className="progressbar__svg">
               <circle
                 cx="80"
@@ -86,8 +86,21 @@ const Skills = () => {
                 {" "}
               </circle>
             </svg>
-            <span className="progressbar__text shadow-angular">Angular.js</span>
-          </div> */}
+            <span className="progressbar__text shadow-angular">Angular</span>
+          </div>
+          <div className="progressbar">
+            <svg className="progressbar__svg">
+              <circle
+                cx="80"
+                cy="80"
+                r="70"
+                className="progressbar__svg-circle circle-angular shadow-vue"
+              >
+                {" "}
+              </circle>
+            </svg>
+            <span className="progressbar__text shadow-vue">Mongo</span>
+          </div>
         </div>
       </div>
     </div>
