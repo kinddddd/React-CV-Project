@@ -20,7 +20,7 @@ const Hero = ({ hero }) => {
         </p>
         <p>
           <a href={hero.linkedin} target='blank'>
-            <img src='https://assets.stickpng.com/images/58e91afdeb97430e81906504.png' alt='Linkedin' className='linkedinLogo'/>
+            <img src='https://cdn.iconscout.com/icon/free/png-256/linkedin-208-916919.png' alt='Linkedin' className='linkedinLogo'/>
             Linkedin
           </a>
         </p>
